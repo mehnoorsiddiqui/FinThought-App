@@ -35,7 +35,7 @@ const getConnection = async () => {
 }
 
 const terminateConnection = async (connection) => {
-    try{
+    try {
         return await connection.destroy(function (err, conn) {
             if (err) {
                 console.error('Unable to disconnect: ' + err.message);
@@ -45,7 +45,7 @@ const terminateConnection = async (connection) => {
                 return 'Disconnected connection with id: ' + connection.getId();
             }
         });
-    }catch(e){
+    } catch (e) {
         console.log("Exception in terminateConnection: ", e);
     }
 }

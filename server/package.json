@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "finicity-apilib": "C:/Users/User/Desktop/Finthouht App/FinicityAPI",
+    "snowflake-sdk": "^1.6.10",
     "@thoughtspot/rest-api-sdk": "^1.10.0",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "finicity-apilib": "C:/Users/User/Desktop/Finthouht App/FinicityAPI",
     "node": "^17.7.2",
-    "nodemon": "^2.0.16",
-    "snowflake-sdk": "^1.6.10"
+    "nodemon": "^2.0.16"
   }
 }

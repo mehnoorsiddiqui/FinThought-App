@@ -10,8 +10,6 @@ const insertquery = async (searchData) => {
     let toDate = transactionData.toDate;
     let sort =transactionData.sort;
 
-    // inserting data into already created database and table
-
     let insertQuery= `INSERT INTO transacData VALUES  `;
     for (let index = 0; index < tracnsactionArray; index++) {
         let id = transactionData.transactions[index].id;
