@@ -1,0 +1,25 @@
+{
+  "name": "finicity-my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@thoughtspot/rest-api-sdk": "^1.10.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "finicity-apilib": "C:/Users/User/Desktop/Finthouht App/FinicityAPI",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "snowflake-sdk": "^1.6.10"
+  }
+}
